@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="137.0" prefWidth="340.0" style="-fx-background-color: aquamarine;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Controlador.Eliminar_datosController">
+   <children>
+      <Label layoutX="63.0" layoutY="39.0" text="Id" />
+      <Label layoutX="100.0" layoutY="3.0" text="Eliminar vendedor " textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <TextField fx:id="txt_id" layoutX="92.0" layoutY="35.0" promptText="Ingresa el id" />
+      <Button fx:id="btn_eliminar" layoutX="100.0" layoutY="78.0" mnemonicParsing="false" onAction="#Click_Eliminar" style="-fx-background-color: darkcyan;" text="Preciona para eliminar" textFill="WHITE" />
+   </children>
+</AnchorPane>

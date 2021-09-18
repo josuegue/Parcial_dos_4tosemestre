@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: aquamarine;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Controlador.Listar_informacionController">
+   <children>
+      <TableView id="tableviw_informacion" fx:id="tb_datos" layoutX="13.0" layoutY="100.0" prefHeight="285.0" prefWidth="579.0" style="-fx-background-color: darkcyan;">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="40.0" text="ID" />
+          <TableColumn fx:id="col_nombre" prefWidth="82.66665649414062" text="NOMBRE" />
+            <TableColumn fx:id="col_apellido" prefWidth="70.0" text="APELLIDO" />
+            <TableColumn fx:id="col_enero" prefWidth="73.99993896484375" text="ENERO" />
+            <TableColumn fx:id="col_febrero" prefWidth="73.33331298828125" text="FEBRERO" />
+            <TableColumn fx:id="col_marzo" prefWidth="81.3333740234375" text="MARZO" />
+            <TableColumn fx:id="col_promedio" prefWidth="78.0" text="PROMEDIO" />
+            <TableColumn fx:id="col_total" prefWidth="80.6666259765625" text="TOTAL" />
+        </columns>
+      </TableView>
+      <Label layoutX="210.0" layoutY="33.0" text="Lista de vendedores" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>
